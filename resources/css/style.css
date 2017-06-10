@@ -1,0 +1,160 @@
+* {
+  border: solid 1px white;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-family: Helvetica;
+  background: black;
+  color: white;
+  margin: 0px;
+  justify-content: center;
+}
+
+.container {
+  width: 960px;
+
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  height: 2.32rem;
+
+}
+
+.logo img {
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  height: 1.5rem;
+}
+
+.logo span {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  font-size: 1rem;
+}
+
+.banner {
+  display: flex;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.bannerBox {
+  margin-top: 9rem;
+
+}
+
+.textBox h1 {
+  font-size: 1rem;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.textBox h2 {
+  padding-top: 0.25rem;
+  font-size: 2rem;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.textBox {
+  background-color: black;
+  padding: 2rem 3rem;
+  width: 20rem;
+  margin: 0px;
+
+}
+
+.navBar {
+  display: flex;
+  height: 2.5rem;
+  width: 100%;
+  background-color: firebrick;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.items {
+  margin-top: 3rem;
+  justify-content: space-between;
+  display: inline-flex;
+  height: auto;
+}
+
+.item {
+  width: 30%;
+  text-align: center;
+  background-color: black;
+  background-color: white;
+
+  height: 11rem;
+
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 500px;
+
+}
+
+.pen {
+
+}
+
+.pen img {
+  height: 9rem;
+  align-items: center;
+
+}
+
+.pen h1 {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: black;
+}
+
+.watch {
+  height: 11rem;
+
+}
+
+.glasses {
+  height: 11rem;
+}
+
+.watch img {
+  height: 9rem;
+  align-items: center;
+}
+
+.imageContainer {
+  border: 4px solid black;
+  height: 11rem;
+}
