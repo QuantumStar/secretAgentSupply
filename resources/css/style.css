@@ -1,6 +1,4 @@
-* {
-  border: solid 1px white;
-}
+
 
 body {
   display: flex;
@@ -35,6 +33,7 @@ body {
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
   font-size: 1rem;
+
 }
 
 .banner {
@@ -119,6 +118,76 @@ li {
   justify-content: center;
   background-color: white;
   width: 100%;
-  height: 500px;
 
+}
+
+.itemSection {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.pen {
+  width: 30%;
+  text-align: center;
+
+}
+
+.watch {
+  width: 30%;
+  text-align: center;
+}
+
+.glasses {
+  width: 30%;
+  text-align: center;
+  }
+
+.imageContainer {
+  display: flex;
+  height: 9rem;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  justify-content: center;
+}
+
+
+.description {
+  background-color: black;
+}
+
+.glasses .imageContainer {
+  background-image: url(../images/glasses.png);
+
+}
+
+.pen .imageContainer {
+  background-image: url(../images/pen.png);
+
+}
+
+.watch .imageContainer {
+  background-image: url(../images/watch.png);
+
+}
+
+.imagePadding {
+  height: 11rem;
+  width: auto;
+  border: 4px solid black;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.description {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
