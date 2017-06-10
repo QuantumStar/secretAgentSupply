@@ -122,39 +122,3 @@ li {
   height: 500px;
 
 }
-
-.pen {
-
-}
-
-.pen img {
-  height: 9rem;
-  align-items: center;
-
-}
-
-.pen h1 {
-  font-size: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  background-color: black;
-}
-
-.watch {
-  height: 11rem;
-
-}
-
-.glasses {
-  height: 11rem;
-}
-
-.watch img {
-  height: 9rem;
-  align-items: center;
-}
-
-.imageContainer {
-  border: 4px solid black;
-  height: 11rem;
-}
